@@ -1,0 +1,132 @@
+#+title: Boyang Yan's Blog
+#+hugo_base_dir: ~/personalblog/
+#+hugo_section: posts
+#+hugo_front_matter_format: yaml
+
+* DONE Index
+CLOSED: [2021-12-21 Tue 16:16]
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:EXPORT_OPTIONS: author:nil
+:END:
+
+---
+title: Posts
+---
+
+#:EXPORT_HUGO_SECTION: posts
+
+* DONE Editor :@Editor:
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: posts/editor
+:END:
+
+** DONE Index
+CLOSED: [2021-12-21 Tue 16:16]
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:EXPORT_OPTIONS: author:nil
+:END:
+---
+title: Editor
+menu:
+  sidebar:
+    name: editor
+    identifier: editor
+    weight: 20
+---
+
+** DONE VIM :@VIM:
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: posts/editor/vim
+:END:
+
+*** DONE Index
+CLOSED: [2021-12-21 Tue 16:16]
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:EXPORT_OPTIONS: author:nil
+:END:
+
+---
+title: vim
+menu:
+  sidebar:
+    name: vim
+    identifier: vim
+    parent: editor
+    weight: 10
+---
+
+#:EXPORT_HUGO_SECTION: posts
+
+*** DONE VIM Keyboard Shortcuts Cheatsheet :vim:
+CLOSED: [2021-12-21 Tue 16:16]
+:PROPERTIES:
+:EXPORT_HUGO_SECTION_FRAG: key
+:EXPORT_FILE_NAME: key
+:EXPORT_OPTIONS: author:nil
+:END:
+
+test
+
+**** Introduction
+This post document is brief introduction about how to use VIM/VI text editor and help you remember the shortcuts. The Vim editor is a command-line based tool that’s an enhanced version of the venerable vi editor. Despite the abundance of graphical rich text editors, familiarity with Vim will help every Linux user – from an experienced system administrator to a newbie Raspberry Pi user.
+
+*** DONE test :vim:
+CLOSED: [2021-12-21 Tue 16:16]
+:PROPERTIES:
+:EXPORT_HUGO_SECTION_FRAG: test
+:EXPORT_FILE_NAME: test
+:EXPORT_OPTIONS: author:nil
+:END:
+
+test
+
+***** test
+****** test
+lalalala
+
+** DONE emacs :@emacs:
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: posts/editor/emacs
+:END:
+
+*** DONE Index
+CLOSED: [2021-12-21 Tue 16:16]
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:EXPORT_OPTIONS: author:nil
+:END:
+
+---
+title: emacs
+menu:
+  sidebar:
+    name: emacs
+    identifier: emacs
+    parent: editor
+    weight: 20
+---
+
+#:EXPORT_HUGO_SECTION: posts
+
+*** DONE emacs first
+CLOSED: [2021-12-21 Tue 16:16]
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: posts/editor/emacs/one
+:EXPORT_FILE_NAME: one
+:EXPORT_OPTIONS: author:nil
+:END:
+
+1st
+
+*** DONE emacs second
+CLOSED: [2021-12-21 Tue 16:16]
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: posts/editor/emacs/two
+:EXPORT_FILE_NAME: two
+:EXPORT_OPTIONS: author:nil
+:END:
+
+2st

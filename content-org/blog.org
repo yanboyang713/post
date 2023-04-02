@@ -3,62 +3,55 @@
 #+hugo_section: posts
 #+hugo_front_matter_format: yaml
 
-* DONE Index
+* DONE Posts
 CLOSED: [2021-12-21 Tue 16:16]
 :PROPERTIES:
+:EXPORT_HUGO_SECTION: posts
 :EXPORT_FILE_NAME: _index
 :EXPORT_OPTIONS: author:nil
 :END:
-
----
-title: Posts
----
-
-#:EXPORT_HUGO_SECTION: posts
 
 * DONE Editor :@Editor:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts/editor
 :END:
 
-** DONE Index
+** DONE Editor
 CLOSED: [2021-12-21 Tue 16:16]
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index
 :EXPORT_OPTIONS: author:nil
+:EXPORT_HUGO_FRONT_MATTER_FORMAT: yaml
 :END:
----
-title: Editor
+
+#+begin_src yaml :front_matter_extra t
 menu:
   sidebar:
     name: editor
     identifier: editor
     weight: 20
----
+#+end_src
 
 ** DONE VIM :@VIM:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts/editor/vim
 :END:
 
-*** DONE Index
+*** DONE vim
 CLOSED: [2021-12-21 Tue 16:16]
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index
 :EXPORT_OPTIONS: author:nil
 :END:
 
----
-title: vim
+#+begin_src yaml :front_matter_extra t
 menu:
   sidebar:
     name: vim
     identifier: vim
     parent: editor
     weight: 10
----
-
-#:EXPORT_HUGO_SECTION: posts
+#+end_src
 
 *** DONE VIM Keyboard Shortcuts Cheatsheet :vim:
 CLOSED: [2021-12-21 Tue 16:16]
@@ -82,7 +75,6 @@ CLOSED: [2021-12-21 Tue 16:16]
 :END:
 
 test
-
 ***** test
 ****** test
 lalalala
@@ -92,29 +84,26 @@ lalalala
 :EXPORT_HUGO_SECTION: posts/editor/emacs
 :END:
 
-*** DONE Index
+*** DONE emacs
 CLOSED: [2021-12-21 Tue 16:16]
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index
 :EXPORT_OPTIONS: author:nil
 :END:
 
----
-title: emacs
+#+begin_src yaml :front_matter_extra t
 menu:
   sidebar:
     name: emacs
     identifier: emacs
     parent: editor
     weight: 20
----
-
-#:EXPORT_HUGO_SECTION: posts
+#+end_src
 
 *** DONE emacs first
 CLOSED: [2021-12-21 Tue 16:16]
 :PROPERTIES:
-:EXPORT_HUGO_SECTION: posts/editor/emacs/one
+:EXPORT_HUGO_SECTION_FRAG: one
 :EXPORT_FILE_NAME: one
 :EXPORT_OPTIONS: author:nil
 :END:
@@ -124,7 +113,7 @@ CLOSED: [2021-12-21 Tue 16:16]
 *** DONE emacs second
 CLOSED: [2021-12-21 Tue 16:16]
 :PROPERTIES:
-:EXPORT_HUGO_SECTION: posts/editor/emacs/two
+:EXPORT_HUGO_SECTION_FRAG: two
 :EXPORT_FILE_NAME: two
 :EXPORT_OPTIONS: author:nil
 :END:

@@ -1,7 +1,7 @@
 #+title: Boyang Yan's Blog
 #+hugo_base_dir: ~/personalblog/
 #+hugo_section: posts
-#+hugo_front_matter_format: yaml
+#+hugo_front_matter_format: toml
 
 * DONE Posts
 CLOSED: [2021-12-21 Tue 16:16]
